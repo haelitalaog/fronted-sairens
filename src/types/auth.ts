@@ -4,7 +4,11 @@ export type UserRole = "ADMIN" | "USUARIO";
 export interface User {
   id: string;
   name: string;
+  email: string;
   carnet: string;
+  age: number;
+  weight: number;
+  height: number;
   role: UserRole;
 }
 
@@ -15,6 +19,6 @@ export interface UserRecord extends User {
 
 
 export interface LoginCredentials {
-  carnet: string;
+  email: string;
   password: string;
 }

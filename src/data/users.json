@@ -2,14 +2,22 @@
   {
     "id": "user-1",
     "name": "Administrador",
+    "email": "admin@sairens.com",
     "carnet": "1234567",
+    "age": 35,
+    "weight": 78,
+    "height": 175,
     "password": "admin123",
     "role": "ADMIN"
   },
   {
     "id": "user-2",
     "name": "Usuario de prueba",
+    "email": "usuario@sairens.com",
     "carnet": "7654321",
+    "age": 28,
+    "weight": 68,
+    "height": 168,
     "password": "usuario123",
     "role": "USUARIO"
   }
